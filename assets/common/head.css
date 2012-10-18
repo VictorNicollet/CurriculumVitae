@@ -1,0 +1,22 @@
+#cv .head {
+  text-align: right;
+  background-color: #EEE;
+  padding: 8px;
+
+  img {
+    float: right;
+    height: 160px;
+    padding: 4px;
+    background-color: white;
+    border: 1px solid #CCC;
+  }
+  h1 {
+    font-size: 30px;
+    margin: 0 160px 0 0;
+  }
+  h2 {
+    margin: 0 160px 0 0;
+    font-size: 24px;
+    font-weight: normal;
+  }
+}

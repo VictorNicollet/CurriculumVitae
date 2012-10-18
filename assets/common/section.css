@@ -1,0 +1,31 @@
+#cv .section {
+
+  width: 630px;
+  margin: 20px 0;
+
+  .project {
+    overflow: hidden;
+  }
+
+  h4 {
+    margin: 0 0 5px 120px;
+    color: #333;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  .short {
+    margin: 0 0 0 120px;
+    color: #888;
+    font-size: 14px;
+  }
+
+  .date {
+    float: left;
+    width: 100px;
+    font-size: 12px;
+    text-align: right;
+    line-height: 42px;
+    color: #333;
+  }
+}
