@@ -1,0 +1,11 @@
+#cv .goto {
+  margin: 8px;
+  font-size: 12px;
+  color: #888;
+
+  a {
+    color: #8AD;
+    text-decoration: none;
+    &:hover { color: #9BE }
+  }
+}

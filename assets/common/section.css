@@ -1,11 +1,16 @@
 #cv .section {
 
   width: 630px;
-  margin: 20px 0;
+  margin: 0;
 
   .project {
     overflow: hidden;
     margin: 20px 0;
+  }
+
+  .project.job {
+    h4 { color: #111; font-weight: bold }
+    .short { color: #111 }
   }
 
   h3 {
@@ -13,7 +18,7 @@
     font-size: 24px;
     color: #888;
     text-transform: uppercase;
-    margin: 20px 0 20px 120px;
+    margin: 80px 0 20px 120px;
   }
 
   h4 {
@@ -34,7 +39,16 @@
     width: 100px;
     font-size: 12px;
     text-align: right;
-    line-height: 42px;
+    line-height: 37px;
     color: #333;
+  }
+
+  .skills {
+    margin-left: 120px;
+    padding-left: 0;
+    list-style-type: none;
+    li {
+      margin-bottom: 5px;
+    }
   }
 }
