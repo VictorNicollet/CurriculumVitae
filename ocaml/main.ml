@@ -5,6 +5,7 @@ open BatPervasives
 
 module Controllers = struct
   open CErrorPage
+  open CStatic
 end
 
 module Main = Ohm.Main.Make(O.Reset)
