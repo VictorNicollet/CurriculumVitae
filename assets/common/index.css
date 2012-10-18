@@ -1,0 +1,51 @@
+#index {
+
+  width: 680px;
+  margin: 100px auto;
+
+  .pic {
+    float: right;
+    width: 304px;
+    margin-left: 30px;  
+  }
+
+  h1 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    line-height: 0.9em;
+  }
+
+  h2 {
+    text-align: right;
+    margin: 0 0 30px 0;
+    color: #888;
+  }
+
+  .links {
+    overflow: hidden;
+    text-align: right;
+    margin-top: 80px;
+    padding-right: 30px;
+
+    a {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 8px 32px;
+      text-decoration: none;
+      border: 1px solid #CCC;
+      color: #333;
+      border-radius: 3px;
+      background: -webkit-linear-gradient(top,white,#EEE);
+      box-shadow: inset 0 0 20px #DDD;
+      &:hover {
+        box-shadow: inset 0 0 10px #EEE;
+        border: 1px solid #DDD;
+        color: #555;
+      }
+    }
+  }
+
+}
